@@ -5,7 +5,7 @@ import HazardMap from './components/HazardMap';
 import FloatingLayer from './components/FloatingLayer';
 import {FloatingPin} from './components/EarthquakeGenerator';
 import map_marker from './img/map_marker.png';
-
+import logo from './img/logo.png';
 import awsconfig from './aws-exports';
 import {API, graphqlOperation} from "aws-amplify";
 import Auth from '@aws-amplify/auth';
@@ -27,8 +27,11 @@ class App extends React.Component {
     }
   }
   render() {
+    let logoStyle = {
+      position: "fixed"
+    }
     return (<div className="App">
-      {
+      <img src={logo} style={logoStyle}/> {
         this.state.earthquakeStep === 2
           ? <FloatingPin/>
           : null
