@@ -35,7 +35,7 @@ class EarthquakeGenerator extends React.Component {
     super(props);
   }
   containerStyle = {
-    position: "absolute",
+    position: "fixed",
     width: "50vw",
     height: "5vh",
     backgroundColor: "rgba(255,255,255,0.8)",
