@@ -29,6 +29,8 @@ class App extends React.Component {
   render() {
     let logoStyle = {
       position: "fixed",
+      top: "0",
+      left: "0",
       zIndex: "3"
     }
     return (<div className="App">
