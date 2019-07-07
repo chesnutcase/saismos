@@ -28,7 +28,8 @@ class App extends React.Component {
   }
   render() {
     let logoStyle = {
-      position: "fixed"
+      position: "fixed",
+      zIndex: "3"
     }
     return (<div className="App">
       <img src={logo} style={logoStyle}/> {
