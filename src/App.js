@@ -14,16 +14,23 @@ API.configure(awsconfig);
 
 class App extends React.Component {
   state = {
-    earthquakeStep: 1
+    earthquakeStep: 1,
+    earthquakeMag: 0,
+    earthquakeDepth: 0
   }
 
   goto_step_two = function() {
-    this.setState({earthquakeStep: 2});
+    this.setState({
+      earthquakeStep: 2,
+      earthquakeMag: document.getElementById("magInput").value,
+      earthquakeDepth: document.getElementById("depthInput").value
+    });
     //ReactDOM.render(<FloatingPin />, document.getElementById("marker_container"));
   }
   hazardmap_onclick = function(e) {
     if (this.state.earthquakeStep === 2) {
       this.setState({earthquakeStep: 3});
+      this.setState({earthquakeStep: 1});
     }
   }
   render() {
@@ -40,7 +47,7 @@ class App extends React.Component {
           : null
       }
       <FloatingLayer earthquakeStep={this.state.earthquakeStep} onClick={() => this.goto_step_two()}/>
-      <HazardMap earthquakeStep={this.state.earthquakeStep} onClick={() => this.hazardmap_onclick()}/>
+      <HazardMap earthquakeStep={this.state.earthquakeStep} earthquakeMag={this.state.earthquakeMag} earthquakeDepth={this.state.earthquakeDepth} onClick={() => this.hazardmap_onclick()}/>
       <div id={"marker_container"}></div>
     </div>)
   }

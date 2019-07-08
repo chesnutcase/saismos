@@ -6,9 +6,7 @@
         "id": 1,
         "kode": 85,
         "Propinsi": "IRIAN JAYA TIMUR",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 1.3361,
-        "capital_lat": 133.1747
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -774,9 +772,7 @@
         "id": 2,
         "kode": 52,
         "Propinsi": "NUSATENGGARA BARAT",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 8.6529,
-        "capital_lat": 117.3616
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -874,9 +870,7 @@
         "id": 3,
         "kode": 75,
         "Propinsi": "GORONTALO",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 0.5333,
-        "capital_lat": 123.067
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -1234,9 +1228,7 @@
         "id": 4,
         "kode": 74,
         "Propinsi": "SULAWESI TENGGARA",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": -3.9674,
-        "capital_lat": 122.595
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -1281,9 +1273,7 @@
         "id": 5,
         "kode": 34,
         "Propinsi": "DAERAH ISTIMEWA YOGYAKARTA",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 7.8754,
-        "capital_lat": 110.4262
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -1451,9 +1441,7 @@
         "id": 6,
         "kode": 3329,
         "Propinsi": "JAWA TENGAH",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 7.1510,
-        "capital_lat": 110.1403
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -1556,9 +1544,7 @@
         "id": 7,
         "kode": 36,
         "Propinsi": "PROBANTEN",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 6.4058,
-        "capital_lat": 106.0640
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -1836,9 +1822,7 @@
         "id": 8,
         "kode": 35,
         "Propinsi": "JAWA TIMUR",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 7.5361,
-        "capital_lat": 112.2384
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -2355,9 +2339,7 @@
         "id": 9,
         "kode": 81,
         "Propinsi": "MALUKU UTARA",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 1.5710,
-        "capital_lat": 127.8088
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -3235,9 +3217,7 @@
         "id": 10,
         "kode": 82,
         "Propinsi": "MALUKU",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 3.2385,
-        "capital_lat": 130.1453
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -3410,9 +3390,7 @@
         "id": 11,
         "kode": 63,
         "Propinsi": "KALIMANTAN SELATAN",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 3.0926,
-        "capital_lat": 115.2838
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -3820,9 +3798,7 @@
         "id": 12,
         "kode": 0,
         "Propinsi": "KALIMANTAN BARAT",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 0.2788,
-        "capital_lat": 111.4753
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -4142,9 +4118,7 @@
         "id": 13,
         "kode": 73,
         "Propinsi": "SULAWESI SELATAN",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 3.66888,
-        "capital_lat": 119.9741
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -4175,9 +4149,7 @@
         "id": 14,
         "kode": 31,
         "Propinsi": "DKI JAKARTA",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 6.2088,
-        "capital_lat": 106.8456
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -4303,9 +4275,7 @@
         "id": 15,
         "kode": 32,
         "Propinsi": "JAWA BARAT",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 7.0909,
-        "capital_lat": 107.6689
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -4699,9 +4669,7 @@
         "id": 16,
         "kode": 84,
         "Propinsi": "IRIAN JAYA TENGAH",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 4.2699,
-        "capital_lat": 138.0804
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -5243,9 +5211,7 @@
         "id": 17,
         "kode": 53,
         "Propinsi": "NUSA TENGGARA TIMUR",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 8.6574,
-        "capital_lat": 121.0794
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -5320,9 +5286,7 @@
         "id": 18,
         "kode": 51,
         "Propinsi": "BALI",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 8.3405,
-        "capital_lat": 115.0920
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -5908,9 +5872,7 @@
         "id": 19,
         "kode": 14,
         "Propinsi": "RIAU",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 0.2933,
-        "capital_lat": 101.7068
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -6444,9 +6406,7 @@
         "id": 20,
         "kode": 72,
         "Propinsi": "SULAWESI TENGAH",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 1.4300,
-        "capital_lat": 121.4456
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -7124,9 +7084,7 @@
         "id": 21,
         "kode": 64,
         "Propinsi": "KALIMANTAN TIMUR",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 0.5387,
-        "capital_lat": 116.4194
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -7320,9 +7278,7 @@
         "id": 22,
         "kode": 71,
         "Propinsi": "SULAWESI UTARA",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 0.6247,
-        "capital_lat": 123.9750
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -7985,9 +7941,7 @@
         "id": 23,
         "kode": 83,
         "Propinsi": "IRIAN JAYA BARAT",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 1.3361,
-        "capital_lat": 133.1747
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -8302,9 +8256,7 @@
         "id": 24,
         "kode": 12,
         "Propinsi": "SUMATERA UTARA",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 2.1154,
-        "capital_lat": 99.5451
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -8480,9 +8432,7 @@
         "id": 25,
         "kode": 19,
         "Propinsi": "BANGKA BELITUNG",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 2.7411,
-        "capital_lat": 106.4406
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -8738,9 +8688,7 @@
         "id": 26,
         "kode": 13,
         "Propinsi": "SUMATERA BARAT",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 0.7399,
-        "capital_lat": 100.8
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -9012,9 +8960,7 @@
         "id": 27,
         "kode": 0,
         "Propinsi": "KALIMANTAN TENGAH",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 1.6815,
-        "capital_lat": 113.3824
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -9250,9 +9196,7 @@
         "id": 28,
         "kode": 16,
         "Propinsi": "SUMATERA SELATAN",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 3.3194,
-        "capital_lat": 103.9144
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -9412,9 +9356,7 @@
         "id": 29,
         "kode": 15,
         "Propinsi": "JAMBI",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 1.6101,
-        "capital_lat": 103.6131
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -9567,9 +9509,7 @@
         "id": 30,
         "kode": 18,
         "Propinsi": "LAMPUNG",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 4.5586,
-        "capital_lat": 105.4068
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -9713,9 +9653,7 @@
         "id": 31,
         "kode": 17,
         "Propinsi": "BENGKULU",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 3.7928,
-        "capital_lat": 102.2608
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     },
     {
@@ -9943,9 +9881,7 @@
         "id": 32,
         "kode": 11,
         "Propinsi": "DI. ACEH",
-        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000",
-        "capital_long": 4.6951,
-        "capital_lat": 96.7494
+        "SUMBER": "Peta Dasar BAKOSURTANAL Skala 1 : 250.000"
       }
     }
   ]

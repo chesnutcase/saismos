@@ -51,9 +51,9 @@ class EarthquakeGenerator extends React.Component {
   step_one_dom = () => (<div style={this.containerStyle}>
     <b>Earthquake simulator</b>
     <span>Magnitude:
-      <input size={5}/></span>
+      <input size={5} id={"magInput"}/></span>
     <span>Depth (km):
-      <input size={5}/></span>
+      <input size={5} id={"depthInput"}/></span>
     <button onClick={() => this.props.onClick()}>Place marker</button>
   </div>)
 

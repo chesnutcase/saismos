@@ -1,0 +1,12 @@
+{
+    "name": "chesnutcase/phpec2",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "chesnutcase",
+            "email": "chester8991@gmail.com"
+        }
+    ]
+}

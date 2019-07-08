@@ -17,6 +17,7 @@ class HazardMap extends React.Component {
     // draw map boundaries
     map.projection = new am4maps.projections.Miller();
     let polygonSeries = new am4maps.MapPolygonSeries();
+    this.mapSeries = polygonSeries;
     polygonSeries.useGeodata = true;
     map.series.push(polygonSeries);
     // center map
@@ -29,7 +30,7 @@ class HazardMap extends React.Component {
     }
     // colour map
     let polygonTemplate = polygonSeries.mapPolygons.template;
-    polygonTemplate.tooltipText = "{Propinsi}";
+    polygonTemplate.tooltipText = "LAT: {capital_lat} \n LONG: {capital_long} \n {Propinsi} \n Deaths: {deaths} \n Casaulties: {casualties}";
     polygonTemplate.fill = am4core.color("#6666ff");
     let hs = polygonTemplate.states.create("hover");
     hs.properties.fill = am4core.color("#1a1aff");
@@ -98,33 +99,51 @@ class HazardMap extends React.Component {
       this.sendRequest();
     }
   }
-  async sendRequest() {
-    const guestCredentials = Auth.currentCredentials();
-    const access_info = {
-        secret_key: guestCredentials.secretAccessKey,
-        access_key: guestCredentials.accessKeyId,
-        session_token: guestCredentials.sessionToken,
-    };
+  sendRequest() {
+    function calcCrow(lat1, lon1, lat2, lon2) {
+      var R = 6371; // km
+      var dLat = toRad(lat2 - lat1);
+      var dLon = toRad(lon2 - lon1);
+      var lat1 = toRad(lat1);
+      var lat2 = toRad(lat2);
 
-    const service_info = {
-        region: 'ap-southeast-1',
-        service: 'lambda',
-    };
+      var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      var d = R * c;
+      return d;
+    }
 
-    const region = service_info.region;
-    const functionName = "predict_earthquake-dev";
+    // Converts numeric degrees to radians
+    function toRad(Value) {
+      return Value * Math.PI / 180;
+    }
 
-    const request = {
-        url: `https://lambda.${region}.amazonaws.com/2015-03-31/functions/${functionName}/invocations`
-    };
+    for (let i = 0; i < this.mapSeries.data.length; i++) {
+      let data = this.mapSeries.data[i];
+      let citylat = data.capital_lat;
+      let citylng = data.capital_long;
+      let quakelat = this.state.lastClick.latitude;
+      let quakeLong = this.state.lastClick.longitude;
+      let distance = calcCrow(citylat, citylng, quakelat, quakeLong);
+      let mag = this.props.earthquakeMag;
+      let depth = this.props.earthquakeDepth;
 
-    const signedRequest = Signer.sign(request, access_info, service_info);
-
-    const result = await axios({
-        method: 'post',
-        ...signedRequest
-    });
-    console.log("hello");
+      let xhr = new XMLHttpRequest();
+      xhr.open("POST", "http://ec2-3-0-145-111.ap-southeast-1.compute.amazonaws.com/");
+      let fd = new FormData();
+      fd.append("distance", distance);
+      fd.append("mag", mag);
+      fd.append("depth", depth);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 || xhr.status == 200) {
+          let responseData = JSON.parse(xhr.responseText);
+          data.deaths = responseData.deaths;
+          data.casualties = responseData.casualties;
+        }
+      }
+      xhr.send(fd);
+    }
+    alert("simulation complete!");
   }
   componentWillUnmount() {
     if (this.chart) {
